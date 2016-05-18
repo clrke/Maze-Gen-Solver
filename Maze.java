@@ -204,7 +204,6 @@ public class Maze extends JFrame implements ActionListener
 					findEntranceAndExit();
 					btnGenerate.setEnabled(true);
 					btnSolve.setEnabled(true);
-					new TextFile(maze);
 					return;
 				}
 				i = stack.topX();
